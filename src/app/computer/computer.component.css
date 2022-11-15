@@ -1,0 +1,14 @@
+input {
+    margin: 15px;
+    width: 50px;
+  }
+  
+  .container {
+    text-align: center;
+    box-shadow: 0 30px 30px grey;
+    width: 400px;
+    /* border: 1px solid red; */
+    margin: 50px;
+    padding: 20px;
+  }
+  
