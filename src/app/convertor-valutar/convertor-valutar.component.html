@@ -1,0 +1,21 @@
+<div class="container-all-currency">
+    <div class="container">
+        <span class="currency"><label>EUR = {{eurRonValue}} RON</label></span>
+        <div class="total-currency">
+            <input type="text" [(ngModel)]="currencyValueEur" (keyup)="resultConvertorValutarEur()"><label>=</label>
+            <p class="total">{{totalEur |number: "1.2-2"}} RON</p>
+        </div>
+
+        <span class="currency"><label>USD = {{usdRonValue}} RON</label></span>
+        <div class="total-currency">
+            <input type="text" [(ngModel)]="currencyValueUsd" (keyup)="resultConvertorValutarUsd()"><label>=</label>
+            <p class="total">{{totalUsd |number: "1.2-2" }} RON</p>
+        </div>
+
+        <span class="currency"><label>GBP = {{gbpRonValue}} RON</label></span>
+        <div class="total-currency">
+            <input type="text" [(ngModel)]="currencyValueGbp" (keyup)="resultConvertorValutarGbp()"><label>=</label>
+            <p class="total">{{totalGbp |number: "1.2-2"}} RON</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="container">
+    <h3>Calculation</h3>
+    <div class="first-line">
+        <input type="number" [(ngModel)]="firstElement"><label>+</label>
+        <input type="number" [(ngModel)]="secondElement"><label>=</label>
+        <input type="number" (click)="totalResult()" [(ngModel)]="sum">
+    </div>
+
+    <div class="second-line">
+        <input type="number" [(ngModel)]="firstElement"><label>-</label>
+        <input type="number" [(ngModel)]="secondElement"><label>=</label>
+        <input type="number" (click)="totalResult()" [(ngModel)]="substraction">
+    </div>
+
+    <div class="third-line">
+        <input type="number" [(ngModel)]="firstElement"><label>*</label>
+        <input type="number" [(ngModel)]="secondElement"><label>=</label>
+        <input type="number" (click)="totalResult()" [(ngModel)]="multiplication">
+    </div>
+
+    <div class="four-line">
+        <input type="number" [(ngModel)]="firstElement"><label>/</label>
+        <input type="number" [(ngModel)]="secondElement"><label>=</label>
+        <input type="number" (click)="totalResult()" [(ngModel)]="division">
+    </div>
+</div>
